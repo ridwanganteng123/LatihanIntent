@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ff00ffff"
+    tools:context=".MainActivity">
+<LinearLayout
+    android:id="@+id/ln1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#FFFFFFFF"
+    android:layout_marginRight="50dp"
+    android:layout_marginLeft="50dp"
+    android:layout_marginTop="30mm"
+
+    >
+    <TextView
+        android:id="@+id/textawal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="PINDAH HALAMAN"
+        android:textColor="#000000"
+        android:gravity="center"
+        />
+</LinearLayout>
+
+    <Button
+        android:id="@+id/hal2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="250dp"
+        android:text="Halaman 2"
+        />
+    <Button
+        android:id="@+id/hal3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="300dp"
+        android:text="Halaman 3"
+        />
+    <Button
+        android:id="@+id/hal4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="350dp"
+        android:text="Halaman 4"
+        />
+    <Button
+        android:id="@+id/hal5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="400dp"
+        android:text="Halaman 5"
+        />
+    <Button
+    android:id="@+id/hal6"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="450dp"
+    android:text="Halaman 6"
+    />
+
+
+
+</RelativeLayout>
